@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'ziti3';
+    src: url("./ziti3.ttf") format("truetype");
+	font-family: 'ziti2';
+	src: url("./ziti2.ttf") format("truetype");
+}
+
+:root {
+    --primary-font-family: 'ziti3';
+    --fallback-font-family: 'ziti2';
+    --font-family: var(--primary-font-family), var(--fallback-font-family), ziti1;
+}
